@@ -14,7 +14,7 @@ class Student extends CI_Controller {
 
     function index(){
         if($this->session->userdata('role_id')==='3'){
-            $this->template->layout_admin('student/dashboard');
+            $this->template->layout_student('student/dashboard');
         }else{
             echo "Access Denied!";
         }
@@ -22,7 +22,7 @@ class Student extends CI_Controller {
 
     function enter(){
         if($this->session->userdata('username')!= ''){
-            $this->template->layout_admin('student/dashboard');    
+            $this->template->layout_student('student/dashboard');    
         }else{
             redirect(base_url().'Auth/index');
         }

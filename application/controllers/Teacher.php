@@ -14,7 +14,7 @@ class Teacher extends CI_Controller {
 
     function index(){
         if($this->session->userdata('role_id')==='2'){
-            $this->template->layout_admin('teacher/dashboard');
+            $this->template->layout_teacher('teacher/dashboard');
         }else{
             echo "Access Denied!";
         }
@@ -22,7 +22,7 @@ class Teacher extends CI_Controller {
 
     function enter(){
         if($this->session->userdata('username')!= ''){
-            $this->template->layout_admin('teacher/dashboard');    
+            $this->template->layout_teacher('teacher/dashboard');    
         }else{
             redirect(base_url().'Auth/index');
         }
