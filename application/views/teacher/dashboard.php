@@ -1,3 +1,6 @@
-<h2>teacher dashboard</h2>
-<?php echo '<h2> Welcome -'.$this->session->userdata('username').'</h2>' ;
-echo '<a href="'.base_url().'Auth/logout">Logout</a>';?>
+                   <div class="col-md-8">
+                        <h1>This is the Teacher dashboard</h1>
+                   </div>      
+           
+             </div>
+</div>
