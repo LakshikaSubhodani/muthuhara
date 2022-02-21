@@ -38,76 +38,76 @@
 
 <!-- side bar -->
 <div class="container" style="margin-top:70px;">
-            <div class="row">
-                   <div class="col-md-4">
-                        
-                           <div class="sidebarAdmin">
-                           <ul>
-                               <li>
-                                   <a href="enter">
-                                       <span class="icon">
-                                       <ion-icon name="grid-outline"></ion-icon>
-                                        </span>
-                                       <span class="text">Admin Dashboard</span>
-                                   </a>
-                               </li>
-           
-                           <li>
-                               <a href="/StudentList">
-                                   <span class="icon">
-                                   <ion-icon name="people-outline"></ion-icon>
-                                   </span>
-                                   <span class="text">Students List</span>
-                               </a>
-                           </li>
-           
-                           <li>
-                               <a href="#">
-                                   <span class="icon">
-                                        <ion-icon name="person-outline"></ion-icon>
-                                   </span>
-                                   <span class="text">Teacher List</span>
-                               </a>
-                           </li>
-           
-                           <li>
-                               <a href="#">
-                                   <span class="icon">
-                                        <ion-icon name="book-outline"></ion-icon>
-                                   </span>
-                                   <span class="text">Grading</span>
-                               </a>
-                           </li>
-           
-                           <li>
-                               <a href="#">
-                                   <span class="icon">
-                                        <ion-icon name="document-text-outline"></ion-icon>
-                                   </span>
-                                   <span class="text">Student Attendence</span>
-                               </a>
-                           </li>
-           
-                           <li>
-                               <a href="#">
-                                   <span class="icon">
-                                        <ion-icon name="cash-outline"></ion-icon>                                
-                                   </span>
-                                   <span class="text">Check Payment</span>
-                               </a>
-                           </li>
-           
-                           <li>
+    <div class="row">
+        <div class="col-md-4">
+            
+            <div class="sidebarAdmin">
+              <ul>
+                  <li>
+                      <a href="enter">
+                          <span class="icon">
+                          <ion-icon name="grid-outline"></ion-icon>
+                          </span>
+                          <span class="text">Admin Dashboard</span>
+                      </a>
+                  </li>
 
-                           <li>
-                               <a href="/AddAdmin" target="_parent">
-                                   <span class="icon">
-                                   <ion-icon name="person-add-outline"></ion-icon>
-                                   </span>
-                                   <span class="text">Admin List</span>
-                               </a>
-                           </li>
+                  <li>
+                      <a href="view_students">
+                          <span class="icon">
+                          <ion-icon name="people-outline"></ion-icon>
+                          </span>
+                          <span class="text">Students List</span>
+                      </a>
+                  </li>
 
-                       </ul>
-                   </div>
-                   </div> 
+                  <li>
+                      <a href="view_teachers">
+                          <span class="icon">
+                              <ion-icon name="person-outline"></ion-icon>
+                          </span>
+                          <span class="text">Teacher List</span>
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="view_students_grading">
+                          <span class="icon">
+                              <ion-icon name="book-outline"></ion-icon>
+                          </span>
+                          <span class="text">Grading</span>
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="view_students_attendance">
+                          <span class="icon">
+                              <ion-icon name="document-text-outline"></ion-icon>
+                          </span>
+                          <span class="text">Student Attendance</span>
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="view_payments">
+                          <span class="icon">
+                              <ion-icon name="cash-outline"></ion-icon>                                
+                          </span>
+                          <span class="text">Check Payment</span>
+                      </a>
+                  </li>
+
+                  <li>
+
+                  <li>
+                      <a href="view_admins" target="_parent">
+                          <span class="icon">
+                          <ion-icon name="person-add-outline"></ion-icon>
+                          </span>
+                          <span class="text">Admin List</span>
+                      </a>
+                  </li>
+
+              </ul>
+            </div>
+        </div> 

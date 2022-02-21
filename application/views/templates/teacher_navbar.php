@@ -41,8 +41,8 @@
             <div class="row">
                    <div class="col-md-4">
                         
-                           <div class="sidebarAdmin">
-                           <ul>
+                      <div class="sidebarAdmin">
+                        <ul>
                                <li>
                                    <a href="enter">
                                        <span class="icon">
@@ -53,7 +53,7 @@
                                </li>
            
                            <li>
-                               <a href="/StudentList">
+                               <a href="view_students">
                                    <span class="icon">
                                    <ion-icon name="people-outline"></ion-icon>
                                    </span>
@@ -62,7 +62,7 @@
                            </li>
            
                            <li>
-                               <a href="#">
+                               <a href="view_students_grading">
                                    <span class="icon">
                                         <ion-icon name="book-outline"></ion-icon>
                                    </span>
@@ -71,16 +71,16 @@
                            </li>
            
                            <li>
-                               <a href="#">
+                               <a href="view_students_attendance">
                                    <span class="icon">
                                         <ion-icon name="document-text-outline"></ion-icon>
                                    </span>
-                                   <span class="text">Student Attendence</span>
+                                   <span class="text">Student Attendance</span>
                                </a>
                            </li>
            
                            <li>
-                               <a href="#">
+                               <a href="view_students_payments">
                                    <span class="icon">
                                         <ion-icon name="cash-outline"></ion-icon>                                
                                    </span>
@@ -90,4 +90,4 @@
 
                        </ul>
                    </div>
-                   </div> 
+              </div> 

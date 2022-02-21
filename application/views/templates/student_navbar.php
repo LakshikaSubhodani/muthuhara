@@ -53,7 +53,7 @@
                                </li>
            
                            <li>
-                               <a href="#">
+                               <a href="view_student_grading">
                                    <span class="icon">
                                         <ion-icon name="book-outline"></ion-icon>
                                    </span>
@@ -62,16 +62,16 @@
                            </li>
            
                            <li>
-                               <a href="#">
+                               <a href="view_students_attendance">
                                    <span class="icon">
                                         <ion-icon name="document-text-outline"></ion-icon>
                                    </span>
-                                   <span class="text">Student Attendence</span>
+                                   <span class="text">Student Attendance</span>
                                </a>
                            </li>
            
                            <li>
-                               <a href="#">
+                               <a href="view_students_payments">
                                    <span class="icon">
                                         <ion-icon name="cash-outline"></ion-icon>                                
                                    </span>
