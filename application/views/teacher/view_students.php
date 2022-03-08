@@ -1,7 +1,7 @@
 <div class="add_student">
         <div class="col-md-8">
             <a href="<?php echo base_url().'teacher/add_student' ?>" class="btn btn-primary">
-                                    Add Student
+            Add Student
                                 </a>
         </div>
         
@@ -29,7 +29,7 @@
                             <th scope="row"></th> -->
 
                             <th scope="row">
-                                <a href="<?php echo base_url().'teacher/view_student_details/'.$user['users_id'] ?>" class="btn btn-primary">
+                                <a href="<?php echo base_url().'teacher/view_student_details/'.$user['users_id'] ?>" class="btn btn-success">
                                     Edit
                                 </a>
                             </th>

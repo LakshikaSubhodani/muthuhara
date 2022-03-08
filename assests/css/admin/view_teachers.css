@@ -11,7 +11,7 @@
 }
 
 .content-table thead tr{
-    background-color: #009879;
+    background-color: #53b9a5;
     color: #ffffff;
     text-align: left;
     font-weight: bold;
@@ -32,11 +32,11 @@
     font-size: 14px;
 }
 
-.content-table tbody tr:hover{
+/* .content-table tbody tr:hover{
     background-color: #f5f5f5;
     transform: scale(1.02);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.12), -1px -1p 8px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .content-table tbody tr:last-of-type{
     border-bottom: 2px solid #009879;
@@ -46,7 +46,5 @@
     margin-top: 10px;
 }
 
-.add_teacher .btn{
-    background: #009879;
-}
+
 
