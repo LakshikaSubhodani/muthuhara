@@ -30,13 +30,13 @@
                             <th scope="row"></th> -->
 
                             <th scope="row">
-                                <a href="<?php echo base_url().'admin/view_teacher_details/'.$user['users_id'] ?>" class="btn btn-primary">
+                                <a href="<?php echo base_url().'admin/view_teacher_details/'.$user['users_id'] ?>" class="btn btn-success">
                                     Edit
                                 </a>
                             <!-- </th>
 
                             <th scope="row"> -->
-                                <a href="<?php echo base_url().'/Admin/delete_user_details/'.$user['users_id'].'/2' ?>" class="btn btn-primary">
+                                <a href="<?php echo base_url().'/Admin/delete_user_details/'.$user['users_id'].'/2' ?>" class="btn btn-danger">
                                     Delete
                                 </a>
                             </th>
