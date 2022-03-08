@@ -1,6 +1,6 @@
         
         <div class="col-md-8 d-flex">
-
+            <div class="form-body">
             <form action="<?php echo site_url('/Teacher/view_students_payments_by_month');?>" method="POST" >
 
                 <div class="form-group">
@@ -8,13 +8,14 @@
                     <input type="month" class="form-control" id="month" name="month">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Search</button>
+                <button type="submit" class="btn btn-success">Search</button>
 
             </form>
-
+            </div>
         </div>
 
         <div class="col-md-8">
+            <div class="form-body">
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -45,6 +46,7 @@
 
                 </tbody>
             </table>
+            </div>
         </div>
 
     </div>

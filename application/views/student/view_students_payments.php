@@ -1,6 +1,6 @@
         
         <div class="col-md-8 d-flex">
-
+            <div class="form-body">
             <form action="<?php echo site_url('/Student/student_pay_fees');?>" method="POST" >
 
                 <div class="form-group">
@@ -8,13 +8,14 @@
                     <input type="text" class="form-control" id="payment" name="payment">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Pay Fees</button>
+                <button type="submit" class="btn btn-info">Pay Fees</button>
 
             </form>
-
+            </div>
         </div>
 
         <div class="col-md-8">
+            <div class="form-body">
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -45,6 +46,7 @@
 
                 </tbody>
             </table>
+            </div>
         </div>
 
     </div>
