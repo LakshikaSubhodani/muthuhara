@@ -1,6 +1,6 @@
     <div class="add_admin">
     <div class="col-md-8">
-        <a href="<?php echo base_url().'Admin/add_admin' ?>" class="btn btn-primary">
+        <a href="<?php echo base_url().'Admin/add_admin' ?>" class="btn btn-info">
                                 Add Admin
                             </a>
     </div>

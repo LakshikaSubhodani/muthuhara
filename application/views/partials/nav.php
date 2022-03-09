@@ -1,3 +1,4 @@
+
 <div>
 <nav class="navbar navbar-inverse navbar-fixed-top" style="margin:0px;  border-radius: 0;" >
   <div class="container-fluid">
@@ -9,7 +10,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="enter">Muthuhara Preschool</a>
+      <?php echo '<a style="text-decoration: none; color: white; font-size:14px; padding:25px;" href="'.base_url().'Admin/enter">Muthuhara Preschool</a>'; ?>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -99,5 +100,6 @@
                   </li>
 
               </ul>
+              <p>hi</p>
             </div>
         </div> 

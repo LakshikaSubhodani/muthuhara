@@ -1,6 +1,6 @@
 <div class="add_student">
         <div class="col-md-8">
-            <a href="<?php echo base_url().'Admin/add_student' ?>" class="btn btn-primary">
+            <a href="<?php echo base_url().'Admin/add_student' ?>" class="btn btn-info">
                                     Add Student
                                 </a>
         </div>
