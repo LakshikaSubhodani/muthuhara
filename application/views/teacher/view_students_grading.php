@@ -5,7 +5,7 @@
 
                 <div class="form-group">
                     <label for="exampleInputDate">Select View Month</label>
-                    <input type="month" class="form-control" id="view_month" name="view_month">
+                    <input type="month" class="form-control" id="view_month" name="view_month" required>
                 </div>
 
                 <button type="submit" class="btn btn-success">View Grading</button>
@@ -20,12 +20,12 @@
 
                 <div class="form-group">
                     <label for="exampleInputDate">Month</label>
-                    <input type="month" class="form-control" id="month" name="month">
+                    <input type="month" class="form-control" id="month" name="month" required>
                 </div>
 
                 <div class="form-group">
                     <label for="exampleInputGrade">Grade</label>
-                    <input type="text" class="form-control" id="grade" name="grade">
+                    <input type="text" class="form-control" id="grade" name="grade" required>
                 </div>
 
                 <div class="form-group">

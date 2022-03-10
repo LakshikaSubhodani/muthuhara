@@ -5,7 +5,7 @@
 
                 <div class="form-group">
                     <label for="exampleInputDate">Select View Month</label>
-                    <input type="month" class="form-control" id="view_date" name="view_date">
+                    <input type="month" class="form-control" id="view_date" name="view_date" required>
                 </div>
 
                 <button type="submit" class="btn btn-success">View Attendance</button>

@@ -5,7 +5,7 @@
 
                 <div class="form-group">
                     <label for="exampleInputPayment">Amount</label>
-                    <input type="text" class="form-control" id="payment" name="payment">
+                    <input type="text" class="form-control" id="payment" name="payment" required>
                 </div>
 
                 <button type="submit" class="btn btn-info">Pay Fees</button>

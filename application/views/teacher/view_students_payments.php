@@ -5,7 +5,7 @@
 
                 <div class="form-group">
                     <label for="exampleInputMonth">Month</label>
-                    <input type="month" class="form-control" id="month" name="month">
+                    <input type="month" class="form-control" id="month" name="month" required>
                 </div>
 
                 <button type="submit" class="btn btn-success">Search</button>
